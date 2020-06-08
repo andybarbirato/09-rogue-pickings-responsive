@@ -190,7 +190,7 @@ footer span {
 
 /******************Media Queries for Reponsive Tablet and Desktop ******************/
 
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (min-width: 768px) {
 
 	.bottom-section {
 		flex-flow: row nowrap;
@@ -244,32 +244,6 @@ footer span {
 		border: none;
 		flex: 1 0 25%;
 		text-align: left;
-		}
-
-
-
-
-	.bottom-section {
-		flex-flow: row nowrap;
-		align-items: flex-start;
-		border-bottom: 0.0625em solid #eee;
-		border-top: 0.0625em solid #eee;
-
-		}
-
-	.section-two {
-		border-right: 0.0625em solid #eee;
-		border-left: 0.0625em solid #eee;
-		}
-
-	.section-one,
-	.section-two,
-	.section-three {
-		padding: 0 0.5em;
-		}
-
-	footer {
-		border-top: none;
 		}
 }
 
